@@ -18,6 +18,8 @@
 		D6FDE64416CFFC4E000C656D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6FDE64316CFFC4E000C656D /* Default-568h@2x.png */; };
 		D6FDE64716CFFC4E000C656D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6FDE64516CFFC4E000C656D /* MainStoryboard.storyboard */; };
 		D6FDE64A16CFFC4E000C656D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FDE64916CFFC4E000C656D /* ViewController.m */; };
+		D6FDE65316D009F4000C656D /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6FDE65216D009F4000C656D /* Accounts.framework */; };
+		D6FDE65516D00A8B000C656D /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6FDE65416D00A8B000C656D /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		D6FDE64616CFFC4E000C656D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		D6FDE64816CFFC4E000C656D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D6FDE64916CFFC4E000C656D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D6FDE65016D009EE000C656D /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		D6FDE65216D009F4000C656D /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		D6FDE65416D00A8B000C656D /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6FDE65516D00A8B000C656D /* Social.framework in Frameworks */,
+				D6FDE65316D009F4000C656D /* Accounts.framework in Frameworks */,
 				D6FDE62E16CFFC4E000C656D /* UIKit.framework in Frameworks */,
 				D6FDE63016CFFC4E000C656D /* Foundation.framework in Frameworks */,
 				D6FDE63216CFFC4E000C656D /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +80,9 @@
 		D6FDE62C16CFFC4E000C656D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D6FDE65416D00A8B000C656D /* Social.framework */,
+				D6FDE65216D009F4000C656D /* Accounts.framework */,
+				D6FDE65016D009EE000C656D /* Twitter.framework */,
 				D6FDE62D16CFFC4E000C656D /* UIKit.framework */,
 				D6FDE62F16CFFC4E000C656D /* Foundation.framework */,
 				D6FDE63116CFFC4E000C656D /* CoreGraphics.framework */,
